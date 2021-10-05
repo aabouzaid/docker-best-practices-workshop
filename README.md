@@ -4,6 +4,8 @@ In a hands-on approach, we will cover 18 best practices in 4 categories or in ot
 
 Please note, this workshop assumes that you have a basic knowledge of Docker.
 
+For the slides and recording: [Docker Best Practices Workshop](https://tech.aabouzaid.com/2021/09/docker-best-practices-workshop-presentation.html).
+
 
 ## The Application
 
