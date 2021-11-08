@@ -17,15 +17,26 @@ We will just run it.
 
 ## The Goal
 
-Review the application [Dockerfile](./app/Dockerfile) and update it with the best practices
-according to what we have in the first part of the workshop.
+The [Dockerfile](./app/Dockerfile) is updated it with the best practices.
 
-Build:
+### Build
+
+Prod image:
 ```
-docker build . -t docker-sample-app:v1
+docker build . -t docker-sample-app:v1 --target=prod
 ```
 
-Run:
+Dev image:
+```
+docker build . -t docker-sample-app:dev-v1 --target=dev
+```
+
+Test image:
+```
+docker build . -t docker-sample-app:test-v1 --target=test
+```
+
+### Run
 ```
 docker run -p 3000:3000 docker-sample-app:v1
 ```

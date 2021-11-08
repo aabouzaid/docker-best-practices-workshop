@@ -110,4 +110,5 @@ module.exports = {
     storeItem,
     updateItem,
     removeItem,
+    location,
 };
